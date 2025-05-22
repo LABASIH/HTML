@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>multimedia</title>
+    </head>
+    <body>
+        <h1>Pagina con multimedia</h1>
+
+        <h2>Imagenes</h2>
+        <h3>Imagenes en local</h3>
+            <p> Prueba de imagenes en 400x300 con imagenes en local y por URL pública </p>
+            <img src="../../img/gato_1.jpeg" alt="gatito_1" width="400" height="300" title="gatito_1">
+            <img src="../../img/gato_2.webp" alt="gatito_2" width="400" height="300">
+            <img src="../../img/gato_3.webp+" alt="gatito_3" width="400" height="300">
+        <h3>Imagenes en URL</h3>
+        <p>A proposito, se inserta incorrectamente la ruta del archivo "gatito_3" y "picsum_photo_300" 
+            de la URL para denotar la importancia del atributo 'alt'</p>
+            <img src="https://picsum.photos/id/281/400/300" alt="picsum_photo_280">
+            <img src="https://picsum.photos/id/291/400/300" alt="picsum_photo_290">
+            <img src="https://picsum.photos/id/301/400/300+" alt="picsum_photo_300">
+    
+        <h2>Videos</h2>
+        <h3>Multimedia con la etiqueta: <'iframe'> para videos en Youtube</h3>
+        <p>Implementación de mute=1 & controls=1</p>
+            <iframe 
+            width="400" height="300"
+            src="https://www.youtube.com/embed/kUMe1FH4CHE?mute=1&controls=1">
+            </iframe>
+        <h3>Multimedia con la etiqueta: <'video'> para un archivo .mp4</h3>
+        <p>Implementación de 'controls', 'autoplay', 'loop' & 'muted'</p>
+            <video 
+            controls autoplay muted loop width="400" height="300"
+            src="https://www.w3schools.com/html/mov_bbb.mp4">
+            </video>
+    </body>
+</html>
